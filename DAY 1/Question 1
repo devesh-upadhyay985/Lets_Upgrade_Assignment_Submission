@@ -1,0 +1,9 @@
+n=int(input("num1:"))
+m=int(input("num2:"))
+for t in range(n,m):
+    if t>1:
+        for y in range (2,t):
+            if t%y==0:
+                break
+        else:
+            print(t)
